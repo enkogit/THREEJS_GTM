@@ -51,15 +51,21 @@ return (
 			<div className='col'>
 				<h3 style={{fontSize: '12px', margin: '0px 0px 0px 0px', opacity:1,  letterSpacing: '0.2em'}}>◐ 3% REWARD POOL </h3>
 			</div>
+			<div className='mobile-break'>
 			<div className='col'>
 				<h3 style={{fontSize: '12px', margin: '0px 0px 0px 0px', opacity:1,  letterSpacing: '0.35em'}}>&emsp;|&emsp;</h3>
 			</div>
+			</div>
+			
 			<div className='col'>
 				<h3 style={{fontSize: '12px', margin: '0px 0px 0px 0px', opacity:1,  letterSpacing: '0.2em'}}> BUYBACK POOL 3%◑&emsp;</h3>
 			</div>
 		</div>
 		<div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
-			<img src='images/web/allocation.png'  width="500px" alt=''  />
+		<div className='mobile-shrink'>
+		<img src='images/web/allocation.png'  width="500px" alt=''  />
+		</div>
+			
 		</div>
 		<div className='bottom-space-md' />
 			<div className='row' style={{flexFlow: 'column', alignItems:'center'}}>
@@ -68,20 +74,20 @@ return (
 		</div>
 		<p className="bottom-space-md" />
 		<div className='row' style={{flexFlow:'column'}}>
-			<h2 style={{fontSize: '18px', fontWeight: '500', textAlign: 'center', letterSpacing:'12px'}}>
-			★ WWW.<b><i>DOGE-1</i></b>.ORG ★
+			<h2 style={{fontSize: '15px', fontWeight: '500', textAlign: 'center', letterSpacing:'8px'}}>
+			 WWW.<b><i>DOGE-1</i></b>.ORG 
 			</h2>
 		</div>
 		<p className="bottom-space-xsm" />
 		<div className="token__container">
 			<div className='token__container-section'>
-				<h2 style={{fontSize: '14px', textAlign: 'center'}}>
+				<h2 style={{fontSize: '13px', textAlign: 'center'}}>
 				Liquidity:&emsp;All initial liquidity tokens <a href='https://bscscan.com/token/0x62F16e2556ba09f192C4fAd2a89D96f0f0D802f5#balances'><i> BURNED</i></a> 🔥
 				</h2>
-				<h2 style={{fontSize: '14px', textAlign: 'center'}}>
+				<h2 style={{fontSize: '13px', textAlign: 'center'}}>
 				Ownership:&emsp;Contract verified and <a href='https://bscscan.com/tx/0xc2959e06a8430e8b524d2d6b458eef9a9e6ffa9f33e2dbd305ea56f0b843aca0'><i> RENOUNCED</i></a> 🔒
 				</h2>
-				<h2 style={{fontSize: '14px', textAlign: 'center'}}>
+				<h2 style={{fontSize: '13px', textAlign: 'center'}}>
 				Community:&emsp;No team tokens. Fair launch. 🤝
 				</h2>
 			</div>
