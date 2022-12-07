@@ -292,7 +292,7 @@ animation: action 2s infinite  alternate;
   justify-content: center;
 }
 .token__container-card {
-  background: linear-gradient(300deg, #0d1114bf 0%, rgb(0 0 0 / 63%) 100%);
+  background: linear-gradient(300deg, #000000ec 0%, rgba(0, 0, 0, 0.884) 100%);
   border: 1px solid #011030;
   border-color: #000b1b;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);

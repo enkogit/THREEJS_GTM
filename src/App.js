@@ -8,6 +8,7 @@ import { Universe } from './components/universe';
 import { Moon } from './components/moon';
 import { Head } from './components/head';
 import { Landing } from './components/landing';
+import { Cybertruck } from './components/cybertruck';
 import { Token } from './components/token';
 import { DogeDash } from './components/sub/doge-dash';
 import { Footer } from './components/footer';
@@ -34,6 +35,7 @@ function App() {
       <div className='main'>
           <Head />
           <Landing />
+          <Cybertruck />
           <Token />
           <DogeDash />
           <Footer />
