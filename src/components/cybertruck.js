@@ -34,6 +34,9 @@ return (
 					↡
 					</h2>
 			<a href='https://cyber.doge-1.org'>
+			<div className='img-zoom'>
+						<img src='cybertruck-front.png'  width="250px" alt=''  />
+					</div>
 				<h2 style={{fontSize: '16px', fontWeight: '200', textAlign: 'center', letterSpacing:'7px'}}>
 			<i>CYBER.</i><b>DOGE-1</b>.ORG 
 			</h2>

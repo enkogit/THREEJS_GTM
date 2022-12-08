@@ -128,7 +128,7 @@ img {
     line-height: .75;
 }
 .img-zoom {
-  animation: zoominoutsinglefeatured 8s infinite  alternate;
+  animation: zoominoutsinglefeatured 12s infinite  alternate;
 }
 @keyframes zoominoutsinglefeatured {
 0% {
