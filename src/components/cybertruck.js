@@ -55,7 +55,11 @@ return (
 					</div>
 					<div className='col'>
 						<div className="row" style={{flexFlow: 'row', alignItems:'center'}}>
-						<img src='banner.gif'  width="250px" alt=''  />
+						<div className='col'>
+							<video width="300" autoPlay loop muted>
+								<source src='banner.mp4' type="video/mp4"/>
+							</video>
+						</div>
 						</div>
 					</div>
 				</div>
