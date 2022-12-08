@@ -27,25 +27,22 @@ return (
 			<h2 style={{fontSize: '18px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
 					join our community and win a cybertruck*
 					</h2>
-			<h2 style={{fontSize: '10px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
+			<h2 style={{fontSize: '12px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
 					click to view
 					</h2>
-					<h2 style={{fontSize: '18px', fontWeight: '100', textAlign: 'center', margin:'5px'}}>
+					<h2 style={{fontSize: '25px', fontWeight: '100', textAlign: 'center', margin:'5px'}}>
 					↡
 					</h2>
 			<a href='https://cyber.doge-1.org'>
-				<h2 style={{fontSize: '15px', fontWeight: '200', textAlign: 'center', letterSpacing:'8px'}}>
+				<h2 style={{fontSize: '16px', fontWeight: '200', textAlign: 'center', letterSpacing:'7px'}}>
 			<i>CYBER.</i><b>DOGE-1</b>.ORG 
 			</h2>
 			</a>
-			</div>
-			<p className='bottom-space-md' />
-			<div className='row' style={{flexFlow:'column'}}>
 			<h2 style={{fontSize: '10px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
 					stayed tuned for more fun
 					</h2>
 			</div>
-			<p className='bottom-space-sm' />
+			<p className='bottom-space-md' />
 				<div className='row' >
 					<div className='col'>
 					<div className="row" style={{flexFlow: 'row', alignItems:'center'}}>
