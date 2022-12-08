@@ -12,7 +12,7 @@ export function Universe(props){
         <>
             <ambientLight intensity={0.3} />
             <pointLight color="#f6f3ea" position={[10, 0, 10]} intensity={5} />
-            <Stars ref={starRef} radius={300} depth={60} count={20000} factor={1} saturation={1} fade={false} />
+            <Stars ref={starRef} radius={300} depth={60} count={20000} factor={7} saturation={0.5} fade={true} />
         </>
     );
 }

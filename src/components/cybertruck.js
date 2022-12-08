@@ -1,5 +1,4 @@
 import React from 'react';
-import { Timer } from './timer';
 
 export function Cybertruck() {
 return (
@@ -25,30 +24,25 @@ return (
 			</div>
 			<p className='bottom-space-md' />
 			<div className='row' style={{flexFlow:'column'}}>
-			<h2 style={{fontSize: '10px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
-					take a cybertruck tour
+			<h2 style={{fontSize: '18px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
+					join our community and win a cybertruck*
 					</h2>
-					<h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', margin:'5px'}}>
+			<h2 style={{fontSize: '10px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
+					click to view
+					</h2>
+					<h2 style={{fontSize: '18px', fontWeight: '100', textAlign: 'center', margin:'5px'}}>
 					↡
 					</h2>
-			<a href='cyber.doge-1.org'>
+			<a href='https://cyber.doge-1.org'>
 				<h2 style={{fontSize: '15px', fontWeight: '200', textAlign: 'center', letterSpacing:'8px'}}>
 			<i>CYBER.</i><b>DOGE-1</b>.ORG 
 			</h2>
 			</a>
 			</div>
-			<div className='row'>
-			<div className='col'>
-						<img src='cybertruck_headlight.gif'  width="250px" alt=''  />
-					</div>
-			</div>
 			<p className='bottom-space-md' />
 			<div className='row' style={{flexFlow:'column'}}>
 			<h2 style={{fontSize: '10px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
-					stayed tuned for more
-					</h2>
-					<h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', margin:'5px'}}>
-					↡
+					stayed tuned for more fun
 					</h2>
 			</div>
 			<p className='bottom-space-sm' />
@@ -81,6 +75,14 @@ return (
 				</a>
 			</div>
 		</div>
+		<div className='row'>
+		<a href='whitepaper/termsandconditions.pdf' rel="noopener noreferrer" target="_blank">
+<h2 style={{fontSize: '10px', fontWeight: '200', textAlign: 'center'}}>
+        TERMS & CONDITIONS
+      </h2>
+   </a>
+		</div>
+
 
 		</div>
 	</div>

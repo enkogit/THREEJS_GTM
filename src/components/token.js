@@ -63,7 +63,7 @@ return (
 		</div>
 		<div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
 		<div className='mobile-shrink'>
-		<img src='images/web/allocation.png'  width="500px" alt=''  />
+		<img src='images/web/allocation.png'  width="350px" alt=''  />
 		</div>
 			
 		</div>
@@ -112,9 +112,9 @@ return (
 			</div>
 			
 		</div>
-		<a href='whitepaper/white.pdf' rel="noopener noreferrer" target="_blank">
-<h2 style={{fontSize: '14px', fontWeight: '200', textAlign: 'center'}}>
-        WHITEPAPER PDF
+		<a href='whitepaper/whitepaper.pdf' rel="noopener noreferrer" target="_blank">
+<h2 style={{fontSize: '10px', fontWeight: '200', textAlign: 'center'}}>
+        WHITEPAPER
       </h2>
    </a>
 		</div>

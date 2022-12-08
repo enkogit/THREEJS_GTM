@@ -18,7 +18,7 @@ const Loading = () => {
         <Html center>
           <p className="bottom-space-md" />
           <div className='loader'>
-            <h3 style={{'fontSize':'14px'}}>Loading model...🤖
+            <h3 style={{'fontSize':'14px'}}>Loading...🤖
             </h3>
             <div className="planet"></div>
           </div>
@@ -40,7 +40,7 @@ function App() {
           <Footer />
       </div>
       <div className='canvas dark'>
-          <Canvas camera={{position: [0, 40, 100], zoom: 1, fov:50}}>
+          <Canvas camera={{position: [0, 40, 70], zoom: 1, fov:50}}>
             <OrbitControls />
             <Universe />
             <ambientLight intensity={0.75} />
@@ -50,7 +50,7 @@ function App() {
             <Physics>
               <Suspense fallback={<Loading />}>
                 <Moon />
-                <mesh position={[0, -25, 0]} scale={0.005}>
+                <mesh position={[0, -25, 0]} scale={0.003}>
                   <Model />
                 </mesh>                
               </Suspense>
