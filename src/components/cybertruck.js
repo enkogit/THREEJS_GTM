@@ -30,9 +30,12 @@ return (
 			<h2 style={{fontSize: '12px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
 					click to view
 					</h2>
+					<div className="float-div">
 					<h2 style={{fontSize: '25px', fontWeight: '100', textAlign: 'center', margin:'5px'}}>
 					↡
 					</h2>
+					</div>
+					
 			<a href='https://cyber.doge-1.org'>
 			<div className='img-zoom'>
 						<img src='cybertruck-front.png'  width="250px" alt='Cybertruck-front'  />
