@@ -20,7 +20,7 @@ return (
 				</a>
 				</div>
 				<div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
-				<img src='images/web/bsc1.png'  width="100px" alt=''  />
+				<img src='images/web/bsc1.png'  width="100px" alt='bscscan-logo'  />
 				
 			</div>
 		</div>
@@ -63,7 +63,7 @@ return (
 		</div>
 		<div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
 		<div className='mobile-shrink'>
-		<img src='images/web/allocation.png'  width="350px" alt=''  />
+		<img src='images/web/allocation.png'  width="350px" alt='chart'  />
 		</div>
 			
 		</div>

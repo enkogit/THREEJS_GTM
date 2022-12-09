@@ -11,7 +11,7 @@ return (
 				<p className='bottom-space-sm' />
 				<div className='row' >
 					<div className='col'>
-						<img src='cybertruck_logo_flash.gif'  width="250px" alt=''  />
+						<img src='cybertruck_logo_flash.gif'  width="250px" alt='cybertruck-logo-gif'  />
 					</div>
 					<div className='col'>
 						<div className="row" style={{flexFlow: 'row', alignItems:'center'}}>
@@ -35,7 +35,7 @@ return (
 					</h2>
 			<a href='https://cyber.doge-1.org'>
 			<div className='img-zoom'>
-						<img src='cybertruck-front.png'  width="250px" alt=''  />
+						<img src='cybertruck-front.png'  width="250px" alt='Cybertruck-front'  />
 					</div>
 				<h2 style={{fontSize: '16px', fontWeight: '200', textAlign: 'center', letterSpacing:'7px'}}>
 			<i>CYBER.</i><b>DOGE-1</b>.ORG 
@@ -82,7 +82,7 @@ return (
 		<div className='row'>
 		<a href='whitepaper/termsandconditions.pdf' rel="noopener noreferrer" target="_blank">
 <h2 style={{fontSize: '10px', fontWeight: '200', textAlign: 'center'}}>
-        TERMS & CONDITIONS
+        TERMS & CONDITIONS*
       </h2>
    </a>
 		</div>
