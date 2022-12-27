@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { TokenBanners } from './sub/token_banners';
 
 export function Token() {
 return (
@@ -11,26 +11,26 @@ return (
 			<div className="token__container-cardInfo" style={{height:'200px'}}>
 				<p className='bottom-space-sm' />
 				<div className='row' style={{flexFlow:'column'}}>
-				<p>♛</p>
+				<div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
+				<img src='images/web/bsc1.png'  width="150px" alt='bscscan-logo'  />
+				
+			</div>
 					<h2 style={{fontSize: '35px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.3852 *3.963.5em', margin:'5px'}}>
-					LIGHTPAPER
+					<i>LIGHT</i> PAPER
 					</h2>
 					<a href={'https://bscscan.com/token/0xfa83de3ee9b354f8b7659ab72f642a345982113a'}>
 				<h3 style={{fontSize: '10px', margin: '5px 0px 0px 0px', opacity:1}}>0xfA83De3ee9b354f8b7659AB72F642a345982113a</h3>
 				</a>
 				</div>
-				<div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
-				<img src='images/web/bsc1.png'  width="100px" alt='bscscan-logo'  />
-				
-			</div>
+
 		</div>
 		<div className="row" style={{flexFlow: 'row', alignItems:'center'}}>
-		<h2 style={{display: 'flex',fontSize: '40px', fontWeight: '800', textAlign: 'center'}}>
+		<h2 style={{display: 'flex',fontSize: '30px', fontWeight: '800', textAlign: 'center'}}>
 		FAIR&emsp;
 		</h2>
 		<hr width="3" size="50"/>
-		<h2 style={{display: 'flex',fontSize: '25px', fontWeight: '400', textAlign: 'center'}}>
-		&emsp;LAUNCH
+		<h2 style={{display: 'flex',fontSize: '20px', fontWeight: '400', textAlign: 'center'}}>
+		&emsp;LAUNCHED
 		</h2>
 	</div>
 	<div className='bottom-space-sm' />
@@ -94,27 +94,18 @@ return (
 		</div>
 		<p className='bottom-space-sm' />
 		<div className='row' style={{flexFlow:'column'}}>
-			<h2 style={{fontSize: '20px', fontWeight: '200', textAlign: 'center'}}>
+			<h2 style={{fontSize: '15px', fontWeight: '200', textAlign: 'center'}}>
 			READY TO JOIN US?
 			</h2>
 		</div>
-
+		
 		<div className='row' >
-			<div className='col'>
-				<a href='https://t.me/official_doge1'  className="btn effect04">
-					<img src='images/web/telegram_icon.png' width='30px' alt='telegram-profile' />
-				</a>
-			</div>
-			<div className='col'>
-				<a href='https://twitter.com/Official_DOGE1'  className="btn effect04">
-					<img src='images/web/twitter_icon.png' width='30px' alt='twitter-profile' />
-				</a>
-			</div>
-			
+			<TokenBanners />
 		</div>
+
 		<a href='whitepaper/whitepaper.pdf' rel="noopener noreferrer" target="_blank">
 <h2 style={{fontSize: '10px', fontWeight: '200', textAlign: 'center'}}>
-        WHITEPAPER
+        WHITEPAPER PDF
       </h2>
    </a>
 		</div>

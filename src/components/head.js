@@ -1,5 +1,4 @@
 import React from 'react';
-import { TokenBanners } from './sub/token_banners';
 
 export function Head() {
 return (
@@ -11,7 +10,6 @@ return (
 		</div>
 	</div>
 	<div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
-		<TokenBanners />
 	</div>
 </div>
 );

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import  { Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Html } from '@react-three/drei';
@@ -10,8 +10,11 @@ import { Head } from './components/head';
 import { Landing } from './components/landing';
 import { Cybertruck } from './components/cybertruck';
 import { Token } from './components/token';
+import { Cosmosapiens } from './components/cosmosapiens';
+import { Store } from './components/store';
 import { DogeDash } from './components/sub/doge-dash';
 import { Footer } from './components/footer';
+import { Roadmap } from './components/roadmap';
 
 const Loading = () => {
   return(
@@ -36,6 +39,9 @@ function App() {
           <Landing />
           <Cybertruck />
           <Token />
+          <Cosmosapiens />
+          <Roadmap />
+          <Store />
           <DogeDash />
           <Footer />
       </div>

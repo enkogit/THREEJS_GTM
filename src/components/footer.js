@@ -1,11 +1,7 @@
-
-import { TokenBanners } from './sub/token_banners';
 export function Footer() {
 
   return (
 <div className='footer'>
-    <p className='bottom-space-md' />
-    <TokenBanners />
     <p className='bottom-space-sm' />
     <div className='row' style={{flexFlow:'column'}}>
         <div className='col'>

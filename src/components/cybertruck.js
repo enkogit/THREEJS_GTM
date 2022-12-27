@@ -70,15 +70,22 @@ return (
 					</div>
 				</div>
 		<p className='bottom-space-sm' />
+		
+		<p className='bottom-space-sm' />
 		<div className='row' >
-			<div className='col'>
-				<a href='https://t.me/official_doge1'  className="btn effect04">
-					<img src='images/web/telegram_icon.png' width='30px' alt='telegram-profile' />
-				</a>
-			</div>
 			<div className='col'>
 				<a href='https://twitter.com/Official_DOGE1'  className="btn effect04">
 					<img src='images/web/twitter_icon.png' width='30px' alt='twitter-profile' />
+				</a>
+			</div>
+			<div className='col'>
+				<a href='https://discord.gg/DJKmu3gZ88'  className="btn effect04">
+					<img src='images/web/discord_icon.png' width='30px' alt='discord-profile' />
+				</a>
+			</div>
+			<div className='col'>
+				<a href='https://t.me/official_doge1'  className="btn effect04">
+					<img src='images/web/telegram_icon.png' width='30px' alt='telegram-profile' />
 				</a>
 			</div>
 		</div>
