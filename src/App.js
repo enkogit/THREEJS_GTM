@@ -38,10 +38,10 @@ function App() {
           <Head />
           <Landing />
           <Cybertruck />
+          <Store />
           <Token />
           <Cosmosapiens />
           <Roadmap />
-          <Store />
           <DogeDash />
           <Footer />
       </div>
