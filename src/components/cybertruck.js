@@ -22,7 +22,6 @@ return (
 					</div>
 				</div>
 			</div>
-			<p className='bottom-space-md' />
 			<div className='row' style={{flexFlow:'column'}}>
 			<h2 style={{fontSize: '18px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
 					join our community and win a cybertruck*
@@ -37,16 +36,14 @@ return (
 					</div>
 					
 			<a href='https://cyber.doge-1.org'>
-			<div className='img-zoom'>
-						<img src='cybertruck-front.png'  width="250px" alt='Cybertruck-front'  />
-					</div>
 				<h2 style={{fontSize: '16px', fontWeight: '200', textAlign: 'center', letterSpacing:'7px'}}>
 			<i>CYBER.</i><b>DOGE-1</b>.ORG 
 			</h2>
+			<div className='img-zoom'>
+						<img src='cybertruck-front.png'  width="250px" alt='Cybertruck-front'  />
+					</div>
+				
 			</a>
-			<h2 style={{fontSize: '10px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
-					stayed tuned for more fun
-					</h2>
 			</div>
 			<p className='bottom-space-md' />
 				<div className='row' >

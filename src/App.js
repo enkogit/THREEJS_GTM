@@ -10,7 +10,7 @@ import { Head } from './components/head';
 import { Landing } from './components/landing';
 import { Cybertruck } from './components/cybertruck';
 import { Token } from './components/token';
-import { Cosmosapiens } from './components/cosmosapiens';
+import { Xtronaut } from './components/xtronaut';
 import { Store } from './components/store';
 import { DogeDash } from './components/sub/doge-dash';
 import { Footer } from './components/footer';
@@ -37,10 +37,10 @@ function App() {
       <div className='main'>
           <Head />
           <Landing />
+          <Xtronaut />
+          <Token />
           <Cybertruck />
           <Store />
-          <Token />
-          <Cosmosapiens />
           <Roadmap />
           <DogeDash />
           <Footer />

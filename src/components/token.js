@@ -196,23 +196,7 @@ export function Token() {
                 to receive DOGECOIN rewards automatically
               </h3>
             </div>
-            <p className="bottom-space-md" />
-            <div className="row" style={{ flexFlow: "column" }}>
-              <h2
-                style={{
-                  fontSize: "15px",
-                  fontWeight: "500",
-                  textAlign: "center",
-                  letterSpacing: "8px",
-                }}
-              >
-                WWW.
-                <b>
-                  <i>DOGE-1</i>
-                </b>
-                .ORG
-              </h2>
-            </div>
+
             <p className="bottom-space-xsm" />
             <div className="token__container">
               <div className="token__container-section">
@@ -244,7 +228,7 @@ export function Token() {
                   textAlign: "center",
                 }}
               >
-                READY TO JOIN US?
+                READY TO JOIN US ON BSC?
               </h2>
             </div>
 
