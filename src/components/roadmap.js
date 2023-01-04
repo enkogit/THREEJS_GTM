@@ -44,7 +44,7 @@ export function Roadmap() {
             Leverage crowd funded charity social media and other online platforms to spread awareness about our mission and initiatives, we mobilize supporters to take action and vote. 
             </h3>
           </div>
-          <div className='roadmap' ><h3 style={{ fontSize: '15px', textAlign:'start'}}>Cosmonaut NFT giveaways and Token airdrops</h3>
+          <div className='roadmap' ><h3 style={{ fontSize: '15px', textAlign:'start'}}>X-tronaut NFT giveaways and Token airdrops</h3>
             <h3 style={{textAlign:'start'}}>Are you a fan of digital art and collectibles? If so, we have a special treat for you! We're excited to announce our NFT giveaway, featuring a collection of unique and rare cosmonaut NFTs.
             We foster our vibrant community of space enthusiasts with NFT giveaways that can be a fun and exciting way for community members to get into the NFT game.
             Don't miss out on this opportunity to add some amazing pieces to your collection. Just hold some DOGE-1.ORG in your wallet so we know who to look out for.
@@ -61,7 +61,23 @@ export function Roadmap() {
               airdrops, prizes, raffles, and future collections. In addition to brining value to our community, 
             we want to be known as a purpose driven project, focused on making a meaningful impact on earth conservation.</h3>
             </div>
+            <div
+                  className="row"
+                  style={{
+                    display: "flex",
+                    flexFlow: "column",
+                    alignItems: "center",
+                  }}
+                >
+                  
+                  <img
+                    src="images/web/game.gif"
+                    width="550px"
+                    alt="bscscan-logo"
+                  />
+                </div>
           </div>
+          
       </div>
   );
 }

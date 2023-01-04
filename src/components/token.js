@@ -22,6 +22,7 @@ export function Token() {
                     alignItems: "center",
                   }}
                 >
+                  
                   <img
                     src="images/web/bsc1.png"
                     width="150px"
@@ -30,10 +31,21 @@ export function Token() {
                 </div>
                 <h2
                   style={{
+                    fontSize: "20px",
+                    fontWeight: "500",
+                    textAlign: "center",
+                    letterSpacing: "0.75em",
+                    margin: "5px 5px 5px 15px",
+                  }}
+                >
+                  <i>BEP-</i><b>20</b>
+                </h2>
+                <h2
+                  style={{
                     fontSize: "35px",
                     fontWeight: "500",
                     textAlign: "center",
-                    letterSpacing: "0.3852 *3.963.5em",
+                    letterSpacing: "0.5em",
                     margin: "5px",
                   }}
                 >

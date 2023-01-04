@@ -14,14 +14,12 @@ export function Store() {
                     className="row"
                     style={{ flexFlow: "row", alignItems: "center" }}
                   >
-                    <div className="flip">
                       <img
-                        src="images/web/doge_dance.gif"
-                        width="50px"
+                        src="images/web/spaceman.png"
+                        width="75px"
                         alt=""
                         style={{ marginTop: "-5px" }}
                       />
-                    </div>
                   </div>
                 </div>
                 <div className="col">
@@ -32,13 +30,26 @@ export function Store() {
                     <h2
                       style={{
                         display: "flex",
-                        fontSize: "35px",
+                        fontSize: "55px",
                         fontWeight: "800",
                         textAlign: "center",
                       }}
                     >
                       MERCH
                     </h2>
+                  </div>
+                </div>
+                <div className="col">
+                  <div
+                    className="row"
+                    style={{ flexFlow: "row", alignItems: "center" }}
+                  >
+                      <img
+                        src="images/web/spacewoman.png"
+                        width="75px"
+                        alt=""
+                        style={{ marginTop: "-5px" }}
+                      />
                   </div>
                 </div>
               </div>
@@ -65,6 +76,19 @@ export function Store() {
                 won't be disappointed (unless you hate doge, in which case,
                 sorry bro).
               </h2>
+              <div
+                    className="row"
+                    style={{ flexFlow: "row", alignItems: "center" }}
+                  >
+                    <div className="flip">
+                      <img
+                        src="images/web/doge_dance.gif"
+                        width="50px"
+                        alt=""
+                        style={{ marginTop: "-5px" }}
+                      />
+                    </div>
+                  </div>
               <h2
                 style={{
                   fontSize: "12px",

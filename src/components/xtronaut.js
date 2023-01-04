@@ -1,4 +1,5 @@
 import React from "react";
+import { TimerNFT } from "./timer_NFT";
 
 
 export function Xtronaut() {
@@ -25,6 +26,17 @@ export function Xtronaut() {
                     width="150px"
                     alt="bscscan-logo"
                   />
+                  <h2
+                  style={{
+                    fontSize: "20px",
+                    fontWeight: "500",
+                    textAlign: "center",
+                    letterSpacing: "0.95em",
+                    margin: "5px 5px 5px 15px",
+                  }}
+                >
+                  <i>ERC-</i>721
+                </h2>
                 </div>
               <div className="token__container-cardInfo">
                 <div className='row' style={{display:'flex'}}>
@@ -74,7 +86,9 @@ export function Xtronaut() {
                     </h2>
                   </div>
               </div>
-              <h3 style={{fontSize: '20px', padding: '5px 0px 5px 0px', opacity:1, letterSpacing: '0.5em'}}><i>COMMUNITY</i> MINT</h3>
+              <h3 style={{fontSize: '20px', padding: '0px 0px 0px 0px', opacity:1, letterSpacing: '0.5em'}}><i>PHASE</i> 1</h3>
+              <TimerNFT />
+              <h3 style={{fontSize: '20px', padding: '0px 0px 0px 0px', opacity:1, letterSpacing: '0.5em'}}><b>FREE </b><i>COMMUNITY</i> MINT</h3>
               <div
               className="row"
               style={{ flexFlow: "row", alignItems: "center" }}
@@ -82,13 +96,13 @@ export function Xtronaut() {
               <div className="col">
                 <h3
                   style={{
-                    fontSize: "15px",
+                    fontSize: "12px",
                     margin: "0px 0px 0px 0px",
                     opacity: 1,
                     letterSpacing: "0.35em",
                   }}
                 >
-                  MAX 2 NFT
+                  1 WALLET
                 </h3>
               </div>
               <div className="col">
@@ -99,8 +113,19 @@ export function Xtronaut() {
                     opacity: 1,
                     letterSpacing: "0.35em",
                   }}
+                >|
+                </h3>
+              </div>
+              <div className="col">
+                <h3
+                  style={{
+                    fontSize: "12px",
+                    margin: "0px 0px 0px 0px",
+                    opacity: 1,
+                    letterSpacing: "0.35em",
+                  }}
                 >
-                  &emsp;|&emsp;
+                  MAX 2 NFTs
                 </h3>
               </div>
               <div className="col">
@@ -111,11 +136,40 @@ export function Xtronaut() {
                     opacity: 1,
                     letterSpacing: "0.35em",
                   }}
+                >|
+                </h3>
+              </div>
+              <div className="col">
+                <h3
+                  style={{
+                    fontSize: "12px",
+                    margin: "0px 0px 0px 0px",
+                    opacity: 1,
+                    letterSpacing: "0.35em",
+                  }}
                 >
-                  PER 1 WALLET
+                  69 TOTAL
                 </h3>
               </div>
             </div>
+            <div className="token__container">
+              <div className='token__container-section' >
+                <h2 style={{fontSize: '14px', textAlign: 'center'}}>
+                Hey DOGE-1 enthusiasts!
+                We've got some exciting news on our phase 1 mint that's sure to make you jump for joy. 
+                As a token of our appreciation for your continued support and engagement, we want to give back by offering this special gift.
+                All members of our fantastic DOGE-1 community are now eligible to claim 2 FREE NFTs! 
+
+                </h2>
+                <h2 style={{fontSize: '14px', textAlign: 'center'}}>
+                To get your hands on this digital treasure, just follow these easy steps:
+                <br /> - Connect your wallet, be sure to use ETH Mainnet
+                <br /> - If you held your DOGE-1, you are eligible to claim up to 2 free NFTs.  
+                <br /> - Follow the prompts, confirm transactions (gas ~$3.79) and boom, your free NFT is all yours!
+                </h2>
+              </div>
+            </div>
+            <p className="bottom-space-sm" />
               <iframe
                     title="xtronaut claim frame"
                     src="https://gateway.ipfscdn.io/ipfs/Qmcine1gpZUbQ73nk7ZGCcjKBVFYXrEtqrhujXk3HDQ6Nn/erc721.html?contract=0x098772332B9459526A4396AFFAFE69A9988F775E&chainId=1&theme=dark&primaryColor=yellow"
@@ -124,6 +178,15 @@ export function Xtronaut() {
                     style={{maxWidth: '100%'}}
                     frameborder="0"
                     ></iframe>
+                    <p className="bottom-space-sm" />
+                    <div className="token__container">
+              <div className='token__container-section' >
+                <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'center'}}>
+                We hope this little surprise brightens your day and keeps you coming back for more DeFi fun. We will be sure to keep airdroping our holders new stuff. Expect more goodies on the king - Ethereum Chain.
+                <br />Thanks for being such an awesome part of our community!
+                </h2>
+              </div>
+            </div>
                     <p className="bottom-space-sm" />
             </div>
             
