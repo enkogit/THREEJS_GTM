@@ -23,9 +23,6 @@ return (
 				</div>
 			</div>
 			<div className='row' style={{flexFlow:'column'}}>
-			<h2 style={{fontSize: '18px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
-					join our community and win a cybertruck*
-					</h2>
 			<h2 style={{fontSize: '12px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
 					click to view
 					</h2>

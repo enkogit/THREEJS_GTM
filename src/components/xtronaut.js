@@ -86,9 +86,9 @@ export function Xtronaut() {
                     </h2>
                   </div>
               </div>
-              <h3 style={{fontSize: '20px', padding: '0px 0px 0px 0px', opacity:1, letterSpacing: '0.5em'}}><i>PHASE</i> 1</h3>
+              <h3 style={{fontSize: '20px', padding: '0px 0px 0px 0px', opacity:1, letterSpacing: '0.5em'}}><i>PHASE</i> 2</h3>
               <TimerNFT />
-              <h3 style={{fontSize: '20px', padding: '0px 0px 0px 0px', opacity:1, letterSpacing: '0.5em'}}><b>FREE </b><i>COMMUNITY</i> MINT</h3>
+              <h3 style={{fontSize: '20px', padding: '0px 0px 0px 0px', opacity:1, letterSpacing: '0.5em'}}>FANS <i><b> $DOGE-1</b></i> MINT</h3>
               <div
               className="row"
               style={{ flexFlow: "row", alignItems: "center" }}
@@ -148,7 +148,7 @@ export function Xtronaut() {
                     letterSpacing: "0.35em",
                   }}
                 >
-                  69 TOTAL
+                  400 TOTAL
                 </h3>
               </div>
             </div>
@@ -156,16 +156,14 @@ export function Xtronaut() {
               <div className='token__container-section' >
                 <h2 style={{fontSize: '14px', textAlign: 'center'}}>
                 Hey DOGE-1 enthusiasts!
-                We've got some exciting news on our phase 1 mint that's sure to make you jump for joy. 
-                As a token of our appreciation for your continued support and engagement, we want to give back by offering this special gift.
-                All members of our fantastic DOGE-1 community are now eligible to claim 2 FREE NFTs! 
+                We've got some exciting news on our phase 2 mint that's sure to make you jump for joy.
 
                 </h2>
                 <h2 style={{fontSize: '14px', textAlign: 'center'}}>
                 To get your hands on this digital treasure, just follow these easy steps:
                 <br /> - Connect your wallet, be sure to use ETH Mainnet
-                <br /> - If you held your DOGE-1, you are eligible to claim up to 2 free NFTs.  
-                <br /> - Follow the prompts, confirm transactions (gas ~$3.79) and boom, your free NFT is all yours!
+                <br /> - All DOGE-1 fans are eligible to mint up to 2 NFTs.  
+                <br /> - Follow the prompts, confirm transactions (gas ~$3.79) and boom, your NFT is all yours!
                 </h2>
               </div>
             </div>

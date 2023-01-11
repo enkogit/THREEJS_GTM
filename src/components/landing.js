@@ -23,7 +23,7 @@ return (
 			</div>
 		</div>
       <h2 style={{fontSize: '18px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing: '0.5em', lineHeight:'25px'}}>
-        HOLD <i><b> $DOGE-1</b></i> <br /> EARN <i> $DOGECOIN</i>
+        HODL or FOLD <br /> <i><b> $DOGE-1</b></i> FAN TOKEN<i>s</i>
       </h2>
       
       <div className='flip'>
