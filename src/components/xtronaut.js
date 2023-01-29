@@ -1,5 +1,5 @@
 import React from "react";
-import { TimerNFT } from "./timer_NFT";
+import { TimerNFT } from "./sub/timer_NFT";
 
 
 export function Xtronaut() {
@@ -8,8 +8,7 @@ export function Xtronaut() {
       <div className='container'>
         <div className='token__section'>
           <div className='token__wrapper'>
-          <p className="bottom-space-sm" />        
-        <p className="bottom-space" />
+          <p className="bottom-space-sm" />       
         
           
             <div className="token__container-card">
@@ -23,7 +22,7 @@ export function Xtronaut() {
                 >
                   <img
                     src="images/web/ethereum.png"
-                    width="150px"
+                    width="100px"
                     alt="bscscan-logo"
                   />
                   <h2
@@ -88,7 +87,7 @@ export function Xtronaut() {
               </div>
               <h3 style={{fontSize: '20px', padding: '0px 0px 0px 0px', opacity:1, letterSpacing: '0.5em'}}><i>PHASE</i> 2</h3>
               <TimerNFT />
-              <h3 style={{fontSize: '20px', padding: '0px 0px 0px 0px', opacity:1, letterSpacing: '0.5em'}}>FANS <i><b> $DOGE-1</b></i> MINT</h3>
+              <h3 style={{fontSize: '20px', padding: '0px 0px 0px 0px', opacity:1, letterSpacing: '0.5em'}}> <i><b>FAN</b></i> MINT</h3>
               <div
               className="row"
               style={{ flexFlow: "row", alignItems: "center" }}

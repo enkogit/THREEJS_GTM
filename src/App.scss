@@ -255,7 +255,25 @@ animation: action 2s infinite  alternate;
 .effect04:hover::before{
   letter-spacing: 0.05em;
   -webkit-transform: translateY(0) scale(1,1);
-          transform: translateY(0) scale(1,1);
+    
+  transform: translateY(0) scale(1,1);
+}
+.btn2 {
+  text-decoration: none;
+  border: 1px solid #030438;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  min-height: 60px;
+  padding:  0.5rem 7rem; 
+  margin: 10px;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  background-color: #000000c4;
 }
 .bottom-space {
   margin-bottom: 100px;

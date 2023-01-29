@@ -41,7 +41,8 @@ return (
     </div>
     <p className="bottom-space" style={{marginBottom:'300px'}} />
     <div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
-		<h3 style={{fontSize: '20px', padding: '5px 0px 5px 0px', opacity:1, letterSpacing: '0.5em'}}>SPACEX DOGE-1 ROCKET LAUNCH</h3>
+		<h3 style={{fontSize: '20px', padding: '5px 0px 5px 0px', opacity:1, letterSpacing: '0.5em'}}>SPACE<b>X</b> DOGE-<b>1</b> LAUNCH</h3>
+		<h3 style={{fontSize: '20px', padding: '5px 0px 5px 0px', opacity:1, letterSpacing: '0.75em'}}>N.E.T.</h3>
 		<Timer />
 					<h2 style={{fontSize: '8px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
 					click to view.
