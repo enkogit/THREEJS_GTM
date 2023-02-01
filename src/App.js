@@ -58,7 +58,7 @@ function App() {
             <Physics>
               <Suspense fallback={<Loading />}>
                 <Moon />
-                <mesh position={[0, -25, 0]} scale={0.003}>
+                <mesh position={[0, -40, 0]} scale={0.25}>
                   <Model />
                 </mesh>                
               </Suspense>

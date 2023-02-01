@@ -63,47 +63,6 @@ export function TokenETH() {
               </h2>
             </div>
             <div className="bottom-space-sm" />
-            <div
-              className="row"
-              style={{ flexFlow: "row", alignItems: "center" }}
-            >
-              <div className="col">
-                <h3
-                  style={{
-                    fontSize: "19px",
-                    margin: "0px 0px 0px 0px",
-                    opacity: 1,
-                    letterSpacing: "0.35em",
-                  }}
-                >
-                  1% YIELD
-                </h3>
-              </div>
-              <div className="col">
-                <h3
-                  style={{
-                    fontSize: "19px",
-                    margin: "0px 0px 0px 0px",
-                    opacity: 1,
-                    letterSpacing: "0.35em",
-                  }}
-                >
-                  &emsp;|&emsp;
-                </h3>
-              </div>
-              <div className="col">
-                <h3
-                  style={{
-                    fontSize: "19px",
-                    margin: "0px 0px 0px 0px",
-                    opacity: 1,
-                    letterSpacing: "0.35em",
-                  }}
-                >
-                  POOL 1%
-                </h3>
-              </div>
-            </div>
             <div className="row" style={{ alignItems: "center" }}>
               <div className="col">
                 <h3
@@ -115,8 +74,8 @@ export function TokenETH() {
                     lineHeight: '1.85em'
                   }}
                 >
-                  ⭐ <br />1% 
-                  <br />DOGE-1 SPACE MARKETING{" "}
+                  ⭐
+                  <br /> coming soon
                 </h3>
               </div>
             </div>
