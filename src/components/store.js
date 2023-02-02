@@ -16,7 +16,7 @@ export function Store() {
                   >
                       <img
                         src="images/web/spaceman.png"
-                        width="75px"
+                        width="50px"
                         alt=""
                         style={{ marginTop: "-5px" }}
                       />
@@ -46,7 +46,7 @@ export function Store() {
                   >
                       <img
                         src="images/web/spacewoman.png"
-                        width="75px"
+                        width="50px"
                         alt=""
                         style={{ marginTop: "-5px" }}
                       />

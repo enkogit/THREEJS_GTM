@@ -86,8 +86,15 @@ export function Xtronaut() {
                   </div>
               </div>
               <h3 style={{fontSize: '20px', padding: '0px 0px 0px 0px', opacity:1, letterSpacing: '0.5em'}}><i>PHASE</i> 2</h3>
+              <img
+                    src="images/web/xtronaut.gif"
+                    width="150px"
+                    alt="bscscan-logo"
+                  />
+                  <p className="bottom-space-sm" />
               <TimerNFT />
               <h3 style={{fontSize: '20px', padding: '0px 0px 0px 0px', opacity:1, letterSpacing: '0.5em'}}> <i><b>FAN</b></i> MINT</h3>
+              
               <div
               className="row"
               style={{ flexFlow: "row", alignItems: "center" }}

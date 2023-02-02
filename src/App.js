@@ -9,7 +9,7 @@ import { Moon } from './components/moon';
 import { Head } from './components/head';
 import { Landing } from './components/landing';
 import { Cybertruck } from './components/cybertruck';
-import { Token } from './components/token';
+import { Token } from './components/token_bsc';
 import { TokenETH } from './components/token_eth';
 import { Xtronaut } from './components/xtronaut';
 import { Store } from './components/store';
@@ -42,8 +42,9 @@ function App() {
           <Xtronaut />
           <Token />
           <Cybertruck />
-          <Store />
+          
           <Roadmap />
+          <Store />
           <DogeDash />
           <Footer />
       </div>

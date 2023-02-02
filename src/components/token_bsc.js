@@ -197,10 +197,16 @@ export function Token() {
               </div>
             </div>
             <div className="bottom-space-md" />
+            <div className='row' style={{flexFlow:'column'}}>
+          <div className='col'>
+            <img src="images/web/doge_spin.gif" width="45px" alt="" style={{margin:'-15px'}} />
+          </div>
+        </div>
             <div
               className="row"
               style={{ flexFlow: "column", alignItems: "center" }}
             >
+              
               <h3 style={{ fontSize: "15px", margin: "2px", opacity: 1 }}>
                 HODL minimum 20 MILLION $DOGE-1
               </h3>

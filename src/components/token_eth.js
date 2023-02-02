@@ -36,6 +36,7 @@ export function TokenETH() {
 
               </div>
             </div>
+            <div className="bottom-space-sm" />
             <div
               className="row"
               style={{ flexFlow: "row", alignItems: "center", margin: "15px", }}
@@ -79,20 +80,25 @@ export function TokenETH() {
                 </h3>
               </div>
             </div>
-            <div
-              className="row"
-              style={{
-                display: "flex",
-                flexFlow: "column",
-                alignItems: "center",
-              }}
-            >
-            </div>
-            <div className="bottom-space-md" />
-            <div
-              className="row"
-              style={{ flexFlow: "column", alignItems: "center" }}
-            >
+            <div className="row" style={{ alignItems: "center" }}>
+              <div className="float-div">
+                <h3
+                  style={{
+                    fontSize: "15px",
+                    padding: "0px 25px 10px 0px",
+                    opacity: 1,
+                    letterSpacing: "0.3em",
+                    lineHeight: '1.85em'
+                  }}
+                >
+                  <img
+                    src="images/web/upsidedown.gif"
+                    width="300px"
+                    alt="bscscan-logo"
+                    
+                  />
+                </h3>
+              </div>
             </div>
             <div className="row">
               <ETHBanners />

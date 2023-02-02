@@ -4,11 +4,7 @@ export function DogeDash() {
   return (
       <div className='container'>
         <div className='bottom-space-sm' />
-        <div className='row' style={{flexFlow:'column'}}>
-          <div className='col'>
-            <img src="images/web/doge_spin.gif" width="45px" alt="" style={{margin:'-15px'}} />
-          </div>
-        </div>
+        
             <div className='row' style={{flexFlow:'column'}}>
             <h2 style={{fontSize: '20px', fontWeight: '500', textAlign: 'center'}}>
             👾

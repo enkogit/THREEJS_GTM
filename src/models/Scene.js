@@ -8,13 +8,13 @@ Title: SpaceX Starship - Spaceship
 */
 
 import React, { useRef } from 'react'
-import { useGLTF, useAnimations } from '@react-three/drei'
+import { useGLTF } from '@react-three/drei'
 import {  useFrame } from "@react-three/fiber";
 
 export function Model(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/scene.gltf')
-  const { actions } = useAnimations(animations, group)
+  const { nodes, materials } = useGLTF('/scene.gltf')
+  // const { actions } = useAnimations(animations, group)
   useFrame(({ clock }) => {
     const elapsedTime = clock.getElapsedTime();
     group.current.rotation.y = elapsedTime / 0.5;
