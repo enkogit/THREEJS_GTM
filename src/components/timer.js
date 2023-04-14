@@ -11,7 +11,7 @@ export function Timer() {
     let interval = useRef();
   
     const startTimer = () => {
-      const countdownDate = new Date('March 1, 2023 03:00:00').getTime()
+      const countdownDate = new Date('July 1, 2023 03:00:00').getTime()
   
       interval = setInterval(() => {
         const now = new Date().getTime();

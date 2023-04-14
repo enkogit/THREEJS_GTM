@@ -1,5 +1,4 @@
 import React from "react";
-import { ETHBanners } from "./sub/eth_banners";
 
 export function TokenETH() {
   return (
@@ -49,7 +48,7 @@ export function TokenETH() {
                   textAlign: "center",
                 }}
               >
-                PINKSALE&emsp;
+                X&emsp;
               </h2>
               
               <h2
@@ -60,7 +59,7 @@ export function TokenETH() {
                   textAlign: "center",
                 }}
               >
-                &emsp;LAUNCHPAD
+                &emsp;LAUNCH
               </h2>
             </div>
             <div className="bottom-space-sm" />
@@ -101,7 +100,6 @@ export function TokenETH() {
               </div>
             </div>
             <div className="row">
-              <ETHBanners />
             </div>
           </div>
         </div>
