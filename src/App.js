@@ -8,12 +8,13 @@ import { Universe } from './components/universe';
 import { Moon } from './components/moon';
 import { Head } from './components/head';
 import { Landing } from './components/landing';
-import { Cybertruck } from './components/cybertruck';
+
 import { Token } from './components/token_bsc';
 import { TokenETH } from './components/token_eth';
 import { Xtronaut } from './components/xtronaut';
 import { Store } from './components/store';
 import { DogeDash } from './components/sub/doge-dash';
+import { Cybertruck } from './components/cybertruck';
 import { Footer } from './components/footer';
 import { Roadmap } from './components/roadmap';
 

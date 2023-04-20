@@ -13,16 +13,28 @@ export function TokenETH() {
             >
               <p className="bottom-space-sm" />
 
-              <div className="row" style={{ flexFlow: "column", padding: "0px 15px 15px 15px" }}>
+              <div className="row" style={{ flexFlow: "column", padding: "0px 10px 10px 1px" }}>
 
                   <img
                     src="images/web/ethereum.png"
                     width="150px"
                     alt="bscscan-logo"
                   />
-                  <h2
+                  
+                <h2
                   style={{
-                    fontSize: "20px",
+                    fontSize: "12px",
+                    fontWeight: "500",
+                    textAlign: "center",
+                    letterSpacing: "0.95em",
+                    margin: "5px",
+                  }}
+                >
+                  <i>X-</i>TOKEN
+                </h2>
+                <h2
+                  style={{
+                    fontSize: "10px",
                     fontWeight: "500",
                     textAlign: "center",
                     letterSpacing: "0.95em",
@@ -31,79 +43,75 @@ export function TokenETH() {
                 >
                   <i>ERC-</i>20
                 </h2>
-
-
+                <h2
+                  style={{
+                    fontSize: "25px",
+                    fontWeight: "500",
+                    textAlign: "center",
+                    letterSpacing: "0.5em",
+                    margin: "15px",
+                  }}
+                >
+                  <i>LIGHT</i> PAPER
+                </h2>
               </div>
             </div>
-            <div className="bottom-space-sm" />
+            <div className="bottom-space" />
+
+            <p className="bottom-space-xsm" />
+            <img
+                    src="images/web/upsidedown.gif"
+                    width="150px"
+                    alt="bscscan-logo"
+                  />
+
+            <p className="bottom-space-xsm" />
             <div
               className="row"
-              style={{ flexFlow: "row", alignItems: "center", margin: "15px", }}
+              style={{ flexFlow: "row", alignItems: "center" }}
             >
-              <h2
-                style={{
-                  display: "flex",
-                  fontSize: "26px",
-                  fontWeight: "800",
-                  textAlign: "center",
-                }}
-              >
-                X&emsp;
-              </h2>
-              
-              <h2
-                style={{
-                  display: "flex",
-                  fontSize: "20px",
-                  fontWeight: "400",
-                  textAlign: "center",
-                }}
-              >
-                &emsp;LAUNCH
-              </h2>
-            </div>
-            <div className="bottom-space-sm" />
-            <div className="row" style={{ alignItems: "center" }}>
               <div className="col">
                 <h3
                   style={{
-                    fontSize: "15px",
+                    fontSize: "19px",
                     margin: "0px 0px 0px 0px",
                     opacity: 1,
-                    letterSpacing: "0.3em",
-                    lineHeight: '1.85em'
+                    letterSpacing: "0.35em",
                   }}
                 >
-                  ⭐
-                  <br /> coming soon
+                  COMING
                 </h3>
               </div>
-            </div>
-            <div className="row" style={{ alignItems: "center" }}>
-              <div className="float-div">
+              <div className="col">
                 <h3
                   style={{
-                    fontSize: "15px",
-                    padding: "0px 25px 10px 0px",
+                    fontSize: "19px",
+                    margin: "0px 0px 0px 0px",
                     opacity: 1,
-                    letterSpacing: "0.3em",
-                    lineHeight: '1.85em'
+                    letterSpacing: "0.35em",
                   }}
                 >
-                  <img
-                    src="images/web/upsidedown.gif"
-                    width="300px"
-                    alt="bscscan-logo"
-                    
-                  />
+                  &emsp;|&emsp;
                 </h3>
               </div>
+              <div className="col">
+                <h3
+                  style={{
+                    fontSize: "25px",
+                    margin: "0px 0px 0px 0px",
+                    opacity: 1,
+                    letterSpacing: "0.35em",
+                  }}
+                >
+                  SOON
+                </h3>
+                
+              </div>
             </div>
-            <div className="row">
-            </div>
+
+          </div>
           </div>
         </div>
       </div>
-    </div>
   );
 }
