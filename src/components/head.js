@@ -6,7 +6,7 @@ return (
 <p className="bottom-space-md" />
 	<div className='mobile-shrink'>
 		<div className="title">
-			<div className='cool-text'>DOGE-1</div>
+			<div className='cool-text'>GATEWAY TO MARS</div>
 		</div>
 	</div>
 	<div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>

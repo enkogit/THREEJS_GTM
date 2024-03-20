@@ -7,7 +7,7 @@ return (
     <div className='row' style={{flexFlow:'column'}}>
 	<div className='row' >
 			<div className='col'>
-				<a href='https://twitter.com/Official_DOGE1'  className="btn effect04">
+				<a href='https://twitter.com/'  className="btn effect04">
 					<img src='images/web/twitter_icon.png' width='30px' alt='twitter-profile' />
 				</a>
 			</div>
@@ -17,13 +17,13 @@ return (
 				</a>
 			</div>
 			<div className='col'>
-				<a href='https://t.me/official_doge1'  className="btn effect04">
+				<a href='https://t.me/'  className="btn effect04">
 					<img src='images/web/telegram_icon.png' width='30px' alt='telegram-profile' />
 				</a>
 			</div>
 		</div>
       <h2 style={{fontSize: '18px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing: '0.5em', lineHeight:'25px'}}>
-        HODL or FOLD <br /> <i><b> $DOGE-1</b></i> FAN TOKEN<i>s</i>
+        HODL or FOLD <br /> <i><b> SPACE</b></i> FAN TOKEN<i>s</i>
       </h2>
       
       <div className='flip'>
@@ -41,8 +41,7 @@ return (
     </div>
     <p className="bottom-space" style={{marginBottom:'300px'}} />
     <div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
-		<h3 style={{fontSize: '20px', padding: '5px 0px 5px 0px', opacity:1, letterSpacing: '0.5em'}}>SPACE<b>X</b> DOGE-<b>1</b> LAUNCH</h3>
-		<h3 style={{fontSize: '20px', padding: '5px 0px 5px 0px', opacity:1, letterSpacing: '0.75em'}}>N.E.T.</h3>
+		<h3 style={{fontSize: '20px', padding: '5px 0px 5px 0px', opacity:1, letterSpacing: '0.5em'}}>STARSHIP<b></b><i> MARS</i> LAUNCH</h3>
 		<Timer />
 					<h2 style={{fontSize: '8px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
 					click to view.
@@ -52,7 +51,7 @@ return (
 					</h2>
 		<div className='img-zoom'>
 			<a href={'https://twitter.com/elonmusk/status/1391523807148527620'}>
-			<img src='images/web/tweet.jpg'  width="350px" alt=''  />
+			<img src='images/web/ticket.png'  width="350px" alt=''  />
 			</a>
 		</div>
 	</div>
